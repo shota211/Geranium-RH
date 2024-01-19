@@ -119,6 +119,10 @@ int main(int argc, char *argv[], char *envp[]) {
             NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
             [dict setObject:[NSNumber numberWithInt:511]  forKey:NSFilePosixPermissions];
             [[NSFileManager defaultManager] setAttributes:dict ofItemAtPath:source error:nil];
+        } else if ([action isEqual: @"daemonperm"]) {
+            NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+            [dict setObject:[NSNumber numberWithInt:644]  forKey:NSFilePosixPermissions];
+            [[NSFileManager defaultManager] setAttributes:dict ofItemAtPath:source error:nil];
         } else if ([action isEqual: @"rebuildiconcache"]) {
             cleanRestrictions();
             [[LSApplicationWorkspace defaultWorkspace] _LSPrivateRebuildApplicationDatabasesForSystemApps:YES internal:YES user:YES];
