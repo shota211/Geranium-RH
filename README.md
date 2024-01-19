@@ -1,7 +1,7 @@
 # Geranium-RH
 ##### RH stands for RootHelper
 
-A fork of TrollTools RootHelper that is being used in Geranium.
+A fork of TrollTools RootHelper that is being used in [Geranium](https://github.com/c22dev/Geranium/).
 Credits to sourcelocation.
 
 ## Building instructions
