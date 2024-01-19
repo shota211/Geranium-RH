@@ -4,7 +4,7 @@
 A fork of TrollTools RootHelper that is being used in Geranium.
 
 ## Building instructions
-1. Install theos, then go in RootHelper directory.
+1. Install theos, then clone this repo.
 2. Run `make`
 3. Copy file in `.theos/obj/debug/GeraniumRootHelper`
 
