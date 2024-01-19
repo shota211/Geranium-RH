@@ -1,3 +1,14 @@
+# Geranium-RH
+##### RH stands for RootHelper
+
+A fork of TrollTools RootHelper that is being used in Geranium.
+
+## Building instructions
+1. Install theos, then go in RootHelper directory.
+2. Run `make`
+3. Copy file in `.theos/obj/debug/GeraniumRootHelper`
+
+Bellow is TrollTools README.
 # TrollTools
 TrollTools - Revolutionizing iOS 15 customisation
 
