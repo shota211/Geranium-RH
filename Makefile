@@ -3,12 +3,12 @@ ARCHS = arm64
 
 include $(THEOS)/makefiles/common.mk
 
-TOOL_NAME = trolltoolsroothelper
+TOOL_NAME = GeraniumRootHelper
 
-trolltoolsroothelper_FILES = $(wildcard *.m)
-trolltoolsroothelper_CFLAGS = -fobjc-arc
-trolltoolsroothelper_CODESIGN_FLAGS = -Sentitlements.plist
-trolltoolsroothelper_INSTALL_PATH = /usr/local/bin
-trolltoolsroothelper_PRIVATE_FRAMEWORKS = SpringBoardServices BackBoardServices MobileCoreServices
+GeraniumRootHelper_FILES = $(wildcard *.m)
+GeraniumRootHelper_CFLAGS = -fobjc-arc
+GeraniumRootHelper_CODESIGN_FLAGS = -Sentitlements.plist
+GeraniumRootHelper_INSTALL_PATH = /usr/local/bin
+GeraniumRootHelper_PRIVATE_FRAMEWORKS = SpringBoardServices BackBoardServices MobileCoreServices
 
 include $(THEOS_MAKE_PATH)/tool.mk
